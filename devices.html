@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+	<title>Devices | CINCO PAYMENT</title>
+	<meta charset="utf-8">
+	<!--[if IE]>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<![endif]-->
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link rel="icon" href="cincopayment-favicon.svg" type="">
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/animations.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+	<link rel="stylesheet" href="css/main.css" class="color-switcher-link">
+	<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
+	<!--[if lt IE 9]>
+		<script src="js/vendor/html5shiv.min.js"></script>
+		<script src="js/vendor/respond.min.js"></script>
+		<script src="js/vendor/jquery-1.12.4.min.js"></script>
+	<![endif]-->
+
+</head>
+
+<body>
+	<!--[if lt IE 9]>
+		<div class="bg-danger text-center">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" class="color-main">upgrade your browser</a> to improve your experience.</div>
+	<![endif]-->
+
+	<div class="preloader">
+		<div class="preloader_image"></div>
+	</div>
+
+	<!-- search modal -->
+	<div class="modal" tabindex="-1" role="dialog" aria-labelledby="search_modal" id="search_modal">
+		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			<span aria-hidden="true">&times;</span>
+		</button>
+		<div class="widget widget_search">
+			<a href="./" class="logo">
+				<span class="logo-text py-20"><strong>CINCO</strong>PAYMENT</span>
+			</a>
+			<form method="get" class="searchform search-form" action="/">
+				<div class="form-group">
+					<input type="text" value="" name="search" class="form-control" placeholder="Search keyword" id="modal-search-input">
+				</div>
+				<button type="submit" class="btn">Search</button>
+			</form>
+		</div>
+	</div>
+
+	<!-- Unyson messages modal -->
+	<div class="modal fade" tabindex="-1" role="dialog" id="messages_modal">
+		<div class="fw-messages-wrap ls p-normal">
+			<!-- Uncomment this UL with LI to show messages in modal popup to your user: -->
+			<!--
+		<ul class="list-unstyled">
+			<li>Message To User</li>
+		</ul>
+		-->
+
+		</div>
+	</div><!-- eof .modal -->
+
+	<!-- wrappers for visual page editor and boxed version of template -->
+	<div id="canvas">
+		<div id="box_wrapper">
+
+			<!-- template sections -->
+
+
+			<!--topline section visible only on small screens|-->
+			<section class="page_topline ls s-borderbottom c-my-10 c-my-lg-20">
+				<div class="container-fluid">
+					<div class="row align-items-center">
+						<div class="col-md-6 text-md-left text-center">
+							<ul class="top-includes">
+								<li>
+									<span class="icon-inline">
+										<span class="icon-styled color-main fs-14">
+											<i class="fa fa-phone"></i>
+										</span>
+										<span class="small-text">
+											<a href="tel:+1(855) 357-6789">(855) 357-6789</a>
+										</span>
+									</span>
+								</li>
+								<li>
+									<span class="icon-inline">
+										<span class="icon-styled color-main fs-14">
+											<i class="fa fa-envelope"></i>
+										</span>
+										<span class="small-text">
+											<a href="mailto:info@cincopayment.com">info@cincopayment.com</a>
+										</span>
+									</span>
+								</li>
+							</ul>
+						</div>
+						<div class="col-md-6 text-center text-md-right d-none d-md-block">
+							<ul class="top-includes">
+								<!-- <li>
+									<span class="icon-inline">
+										<span class="icon-styled color-main2 fs-14">
+											<i class="fa fa-comment"></i>
+										</span>
+										<span class="small-text">
+											<a class="hover-main2" href="#">request a quote</a>
+										</span>
+									</span>
+								</li> -->
+								<!-- <li>
+									<span class="icon-inline">
+										<span class="icon-styled color-main2 fs-14">
+											<i class="fa fa-user"></i>
+										</span>
+										<span class="small-text">
+											<a class="hover-main2" href="#"> Login in</a>
+										</span>
+									</span>
+								</li> -->
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+			<!--eof topline-->
+
+			<div class="header_absolute header_layout_1">
+				<div id="particles-js"></div>
+				<!-- header with two Bootstrap columns - left for logo and right for navigation and includes (search, social icons, additional links and buttons etc -->
+				<header class="page_header ls justify-nav-end">
+					<div class="container-fluid">
+						<div class="row align-items-center">
+							<div class="col-xl-2 col-lg-4 col-md-5 col-11">
+								<a href="./" class="logo">
+									<span class="logo-text py-20"><strong>CINCO</strong>PAYMENT</span>
+								</a>
+							</div>
+							<div class="col-xl-9 col-lg-8 col-md-7 col-1">
+								<div class="nav-wrap">
+
+									<!-- main nav start -->
+									<nav class="top-nav">
+										<ul class="nav sf-menu">
+
+											<li class="">
+												<a href="index.html">Home</a>
+											</li>
+
+											<li class="">
+												<a href="devices.html">Devices</a>
+											</li>
+
+											<!-- <li>
+												<a>Products</a>
+												<ul>
+													<li>
+														<a href="hardware.html">Hardware</a>
+													</li>
+													<li>
+														<a href="features.html">Software Features</a>
+													</li>
+												</ul>
+											</li> -->
+
+											<!-- <li class="">
+												<a href="pricings.html">Pricings</a>
+											</li> -->
+
+											<li class="">
+												<a href="bank-partners.html">Bank Partners</a>
+											</li>
+
+											<li class="">
+												<a href="contacts.html">Contacts</a>
+											</li>
+
+										</ul>
+
+									</nav>
+									<!-- eof main nav -->
+
+									<!--hidding includes on small devices. They are duplicated in topline-->
+									<!-- <ul class="top-includes d-none d-xl-block search-icon">
+
+										<li>
+											
+											<span>
+												<a href="#" class="search_modal_button">
+													<i class="fa fa-search"></i>
+												</a>
+											</span>
+
+										</li>
+
+									</ul> -->
+
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- header toggler -->
+					<span class="toggle_menu"><span></span></span>
+				</header>
+
+				<div class="page_header_wrapper main-header-side">
+					<div class="page_header_side header_slide header_side_right ls">
+						<span class="toggle_menu toggle_menu_side header-slide"><span></span></span>
+						<div class="scrollbar-macosx">
+							<div class="side_header_inner">
+								<div class="header-side-menu">
+									<!-- main side nav start -->
+									<nav class="mainmenu_side_wrapper">
+										<ul class="nav menu-click">
+											<li>
+												<a href="privacy-policy.html">
+													<i class="color-main7 fa fa-file-text-o"></i>
+													Privacy Policy
+												</a>
+											</li>
+											<li>
+												<a href="terms-conditions.html">
+													<i class="color-main7 fa fa-file-text-o"></i>
+													Terms & Conditions
+												</a>
+											</li>
+											<li>
+												<a href="customer-check-in-terms-conditions.html">
+													<i class="color-main7 fa fa-file-text-o"></i>
+													Customer Check-in Terms & Conditions
+												</a>
+											</li>
+											<li>
+												<a href="contacts.html">
+													<i class="color-main7 fa fa-rocket"></i>
+													Contacts
+												</a>
+											</li>
+										</ul>
+									</nav>
+									<!-- eof main side nav -->
+
+
+								</div>
+							</div>
+						</div>
+						<div class="facebook-messeger d-flex align-items-center hero-bg">
+							<img src="images/messeger.png" alt="">
+							<a href="https://messenger.com" class="small-text">
+								facebook messeger
+							</a>
+						</div>
+					</div>
+
+				</div>
+
+				<section class="page_title cs s-pt-60 s-pb-10 s-pt-lg-130 s-pb-lg-60 page_title text-center">
+					<div class="container-fluid">
+						<div class="row">
+
+							<div class="divider-60"></div>
+
+							<div class="col-md-12 text-center">
+								<h1>Devices</h1>
+							</div>
+
+							<div class="divider-50"></div>
+
+						</div>
+
+					</div>
+					<ol class="breadcrumb full-width">
+						<li class="breadcrumb-item">
+							<a href="./">Home</a>
+						</li>
+						<li class="breadcrumb-item active">
+							Devices
+						</li>
+					</ol>
+				</section>
+			</div>
+
+
+			<section class="ls s-py-80 s-py-lg-120 s-py-xl-160">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="row justify-content-center">
+								<div class="col-md-10 col-xl-8">
+									<div class="filters gallery-filters small-text text-lg-right">
+										<!-- <a href="#" data-filter="*" class="active selected">All</a> -->
+										<a href="#" data-filter=".A" class="active selected">POS Systems</a>
+										<a href="#" data-filter=".B">Payment Devices</a>
+										<a href="#" data-filter=".C">Accessories</a>
+									</div>
+								</div>
+							</div>
+							<div class="row isotope-wrapper masonry-layout c-mb-30" data-filters=".gallery-filters">
+
+								<div class="col-md-4 A">
+
+									<div class="text-center content-padding hero-bg gallery-item">
+										<div class="item-media">
+											<img src="images/devices/win.png" alt="">
+											<div class="media-links">
+												<a class="abs-link" title="" href=""></a>
+											</div>
+										</div>
+										<div class="item-content">
+											<h5 class="gallery-title">
+												<a href="">Window</a>
+											</h5>
+											<div class="small-text cat-links">
+												<a class="link-main2" href="#">___</a>
+											</div>
+											<li>21.5'' FHD Touch Display</li>
+											<li>Windows OS</li>
+											<li>Intel® Pentium® 4415U Processor (2MB Cache, up to 2.3 GHz)</li>
+											<li>RAM Size 8GB 2400MHz DDR4</li>
+											<li>1TB 5400 RPM HDD</li>
+											<li>Intel HD Graphics 610, i3277-P248WHT</li>
+											<li>Resolution 1920 x 1080</li>
+
+										</div>
+									</div>
+
+								</div>
+
+								<div class="col-md-4 A">
+									<div class="text-center content-padding hero-bg gallery-item">
+										<div class="item-media">
+											<img src="images/devices/pax-e800.png" alt="">
+											<div class="media-links">
+												<a class="abs-link" title="" href=""></a>
+											</div>
+										</div>
+										<div class="item-content">
+											<h5 class="gallery-title">
+												<a href="">Pax E800</a>
+											</h5>
+											<div class="small-text cat-links">
+												<a class="link-main3" href="#">___</a>
+											</div>
+											<li>15.6" IPS 1920 x 1080 Pixels FHD Touch Screen</li>
+											<li>8" IPS 1280 x 800 Pixels HD Touch Screen</li>
+											<li>Q20 Payment Module: 4.3" TFT WQVGA 480 x 272 Pixels</li>
+											<li>PayDroid Powered by Android 6.0 + (Q20) Prolin</li>
+											<li>Cortex A17 + (Q20) Cortex A7</li>
+											<li>16GB eMMC Flash + 2GB DDR RAM Extended Micro SD card slot up to 64GB</li>
+											
+										</div>
+									</div>
+								</div>
+
+								<div class="col-md-4 A">
+									<div class="text-center content-padding hero-bg gallery-item">
+										<div class="item-media">
+											<img src="images/devices/amazon-fire.png" alt="">
+											<div class="media-links">
+												<a class="abs-link" title="" href=""></a>
+											</div>
+										</div>
+										<div class="item-content">
+											<h5 class="gallery-title">
+												<a href="">Amazon Fire</a>
+											</h5>
+											<div class="small-text cat-links">
+												<a class="link-main2" href="#">___</a>
+											</div>
+											<li>10.1" 1080p full HD</li>
+											<li>(1920 x 1200) with over 2 million pixels (224 ppi)</li>
+											<li>32 or 64 GB (expandable by up to 1 TB)</li>
+											<li>Octa-core 2.0 GHz</li>
+											<li>RAM Size 3GB</li>
+																						
+										</div>
+									</div>
+								</div>
+
+								<div class="col-md-4 A B">
+									<div class="text-center content-padding hero-bg gallery-item">
+										<div class="item-media">
+											<img src="images/devices/pax-aries8.png" alt="">
+											<div class="media-links">
+												<a class="abs-link" title="" href=""></a>
+											</div>
+										</div>
+										<div class="item-content">
+											<h5 class="gallery-title">
+												<a href="">PAX Aries 8</a>
+											</h5>
+											<div class="small-text cat-links">
+												<a class="link-main2" href="#">___</a>
+											</div>
+											<li>10.1" 1080p full HD</li>
+											<li>Powered by Android 7.1</li>
+											<li>8'' IPS WXGA 1280 x 800 Pixels</li>
+											<li>Multi-Point Capacitive Touch Screen</li>
+											<li>Cortex A17 + (Q20) Cortex A7</li>
+											<li>8GB eMMC Flash + 1GB DDR RAM</li>
+											<li>Extended Micro SD card slot up to 128GB</li>
+											<li>Hybrid Chip & PIN + Magnetic Stripe | NFC Contactless</li>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-md-4 A B">
+									<div class="text-center content-padding hero-bg gallery-item">
+										<div class="item-media">
+											<img src="images/devices/pax-a920.png" alt="">
+											<div class="media-links">
+												<a class="abs-link" title="" href=""></a>
+											</div>
+										</div>
+										<div class="item-content">
+											<h5 class="gallery-title">
+												<a href="">PAX A-920</a>
+											</h5>
+											<div class="small-text cat-links">
+												<a class="link-main2" href="#">___</a>
+											</div>
+											<li>Operating Sys: Android 4.4</li>
+											<li>Processor: ARM Cortex A7 1.2GHz 4 Core Processor</li>
+											<li>Memory: 1GB DDR3 SDRAM, 8GB EMMC</li>
+											
+											<li class="mt-3">Display:</li>
+												5.0 inch 720 x 1280 pixel capacitive touch screen
+												<br>White LED backlights Signal Strength Bluetooth Connectivity, Battery Status
+												<br>Bluetooth Connectivity, Battery Status
+											
+											<li class="mt-3">Certifications:</li>
+												PCI PTS 4.x
+												<br>EMV L1 & L2
+												<br>MasterCard Contactless
+												<br>Visa payWave
+												<br>AMEX expresspay
+												<br>Discover D-PAS
+												<br>MasterCard TQM
+												<br>NSICC
+											
+											<li class="mt-3">Communication:</li>
+												TD-LTE / FDD-LTE
+												<br>WCDMA / HSDPA / HSUPA / HSPA+
+												<br>Bluetooth
+												<br>WiFi
+																						
+										</div>
+									</div>
+								</div>
+
+								<div class="col-md-4 B">
+									<div class="text-center content-padding hero-bg gallery-item">
+										<div class="item-media">
+											<img src="images/devices/pax-sp30-pinpad.png" alt="">
+											<div class="media-links">
+												<a class="abs-link" title="" href=""></a>
+											</div>
+										</div>
+										<div class="item-content">
+											<h5 class="gallery-title">
+												<a href="">PAX SP-30 Pinpad</a>
+											</h5>
+											<div class="small-text cat-links">
+												<a class="link-main2" href="#">___</a>
+											</div>
+											<li>Support EMV, Magstripe and NFC / Contactless</li>
+											<li class="mt-3">Certifications:</li>
+												PCI PTS 2.1 Certified
+												<br>EMV L1 & L2
+												<br>EMV Contactless L1
+												<br>MasterCard PayPass
+												<br>Visa payWave
+											<li>Processor: 32-bit MIPS</li>
+											<li>Memory:	16MB (8MB Flash, 8MB SDRAM)</li>
+											<li>Display: 128 x 64 pixels LCD, white backlit</li>
+											<li class="mt-3">Communication:</li>
+												Ethernet
+												<br>Modem (optional)
+												<br>Sync. (HDLC up to 9600bps)
+												<br>Async. (V.92, up to 56Kbps)										
+										</div>
+									</div>
+								</div>
+
+								<div class="col-md-4 B">
+									<div class="text-center content-padding hero-bg gallery-item">
+										<div class="item-media">
+											<img src="images/devices/pax-s300.png" alt="">
+											<div class="media-links">
+												<a class="abs-link" title="" href=""></a>
+											</div>
+										</div>
+										<div class="item-content">
+											<h5 class="gallery-title">
+												<a href="">PAX S-300</a>
+											</h5>
+											<div class="small-text cat-links">
+												<a class="link-main2" href="#">___</a>
+											</div>
+											<li>E-signature Capability</li>
+											<li>Support: MC Contactless & VS PayWave, AMEX ExpressPay, Disc DPAS, JCB J/Speedy, Interact Flash, ISO 14443 Type A/B, Mifare, Melica, NFC</li>
+											<li>Certifications: PCI PTS 4.x, SRED, EMV Contact L1 & L2, EMV Contactless L1, Visa payWave, MasterCard Contactless, AMEX Expresspay, Discover D-PAS JCB J/Speedy Interac Flash, MasterCard TQM</li>
+											
+											<li>Processor: 32-bit ARM11	</li>
+											<li>Memory: 192 MB (128MB Flash, 64MB DDR)</li>
+											<li>Display: 3.5 inch 240 x 320 pixels color TFT LCD Touch screen</li>
+											<li>Communication: Single multi-port connector which supports up to: 1 x RS232 + 1 x USB2.0 Device + 1 x Ethernet</li>
+																			
+										</div>
+									</div>
+								</div>
+
+								<div class="col-md-4 B">
+									<div class="text-center content-padding hero-bg gallery-item">
+										<div class="item-media">
+											<img src="images/devices/clover-mini.png" alt="">
+											<div class="media-links">
+												<a class="abs-link" title="" href=""></a>
+											</div>
+										</div>
+										<div class="item-content">
+											<h5 class="gallery-title">
+												<a href="">Clover Mini</a>
+											</h5>
+											<div class="small-text cat-links">
+												<a class="link-main2" href="#">___</a>
+											</div>
+											<p>Coming Soon</p>
+											
+																			
+										</div>
+									</div>
+								</div>
+								
+								<div class="col-md-4 B">
+									<div class="text-center content-padding hero-bg gallery-item">
+										<div class="item-media">
+											<img src="images/devices/clover-flex.png" alt="">
+											<div class="media-links">
+												<a class="abs-link" title="" href=""></a>
+											</div>
+										</div>
+										<div class="item-content">
+											<h5 class="gallery-title">
+												<a href="">Clover Flex</a>
+											</h5>
+											<div class="small-text cat-links">
+												<a class="link-main2" href="#">___</a>
+											</div>
+											<p>Coming Soon</p>
+											
+																			
+										</div>
+									</div>
+								</div>
+
+								<!-- CCC -->
+								<div class="col-md-4 C">
+									<div class="text-center content-padding hero-bg gallery-item">
+										<div class="item-media">
+											<img src="images/devices/sam-4s-printer.png" alt="">
+											<div class="media-links">
+												<a class="abs-link" title="" href=""></a>
+											</div>
+										</div>
+										<div class="item-content">
+											<h5 class="gallery-title">
+												<a href="">Sam 4S Printer</a>
+											</h5>
+											<div class="small-text cat-links">
+												<a class="link-main2" href="#">___</a>
+											</div>
+											<li>Model: Giant 100</li>
+											<li>Paper Width: 80 mm</li>
+											<li>Printing Speed: Max. 250 mm/sec (59 lines/sec)</li>
+											<li>Power Input: DC 24V/2.5A</li>
+											<li>Interface: USB + Serial(25Pin), USB + Serial(9Pin), USB + Wi-Fi, USB + Serial + Ethernet</li>
+														
+										</div>
+									</div>
+								</div>
+
+								<div class="col-md-4 C">
+									<div class="text-center content-padding hero-bg gallery-item">
+										<div class="item-media">
+											<img src="images/devices/white-cashier-draw.png" alt="">
+											<div class="media-links">
+												<a class="abs-link" title="" href=""></a>
+											</div>
+										</div>
+										<div class="item-content">
+											<h5 class="gallery-title">
+												<a href="">White Cashier Drawer</a>
+											</h5>
+											<div class="small-text cat-links">
+												<a class="link-main2" href="#">___</a>
+											</div>
+											<li>Dimension: 300 x 360 x 80 [mm] (W x D x H) | 11.8 x 14.2 x 3.15 [in]</li>
+											<li>Electrical and Key Opening</li>
+											<li>Removable Coin Compartment</li>
+											<li>4 bill / 6 coin lay-out</li>
+											<li>RJ-11/12 Interfacet</li>
+														
+										</div>
+									</div>
+								</div>
+								
+								<div class="col-md-4 C">
+									<div class="text-center content-padding hero-bg gallery-item">
+										<div class="item-media">
+											<img src="images/devices/giftcard_reader.png" alt="">
+											<div class="media-links">
+												<a class="abs-link" title="" href=""></a>
+											</div>
+										</div>
+										<div class="item-content">
+											<h5 class="gallery-title">
+												<a href="">Giftcard Reader</a>
+											</h5>
+											<div class="small-text cat-links">
+												<a class="link-main2" href="#">___</a>
+											</div>
+											<li>Size: 90x 27 x 29 mm (L x W x H)</li>
+											<li>Interface: USB emulation Keyboard</li>
+											<li>Housing: 90% non-condensing</li>
+											<li>Relative Humidity: DC 24V/2.5A</li>
+											<li>Works with: Windows98/2000/XP/Vista/7/8,MAC OS,or many other USB capable operating systems</li>
+														
+										</div>
+									</div>
+								</div>
+
+								<div class="col-md-4 C">
+									<div class="text-center content-padding hero-bg gallery-item">
+										<div class="item-media">
+											<img src="images/devices/barcode_reader.png" alt="">
+											<div class="media-links">
+												<a class="abs-link" title="" href=""></a>
+											</div>
+										</div>
+										<div class="item-content">
+											<h5 class="gallery-title">
+												<a href="">Barcode Reader</a>
+											</h5>
+											<div class="small-text cat-links">
+												<a class="link-main2" href="#">___</a>
+											</div>
+											<li>Processor: 32-bit MCU</li>
+											<li>Interface: USB and wireless 2.4G</li>
+											<li>Radio Frequency: 2.4G 60-400 meters</li>
+											<li>Battery: 800MAH 3.7v</li>
+											<li>Light Source: 650nm (class I)</li>
+											<li>Scanning Distance: 5cm-30cm</li>
+														
+										</div>
+									</div>
+								</div>
+
+								<div class="col-md-4 C">
+									<div class="text-center content-padding hero-bg gallery-item">
+										<div class="item-media">
+											<img src="images/devices/pos-printer-paper.png" alt="">
+											<div class="media-links">
+												<a class="abs-link" title="" href=""></a>
+											</div>
+										</div>
+										<div class="item-content">
+											<h5 class="gallery-title">
+												<a href="">POS Printer Paper</a>
+											</h5>
+											<div class="small-text cat-links">
+												<a class="link-main2" href="#">___</a>
+											</div>
+											<li>Paper Type: Thermal</li>
+											<li>Standard: 58gsm</li>
+											<li>Count: 50 roll/carton</li>
+											<li>Dimension: [W x L X D] >> [3 1/8 inches x 230 feet x 2.75" Diameter]</li>
+														
+										</div>
+									</div>
+								</div>
+
+								<div class="col-md-4 C">
+									<div class="text-center content-padding hero-bg gallery-item">
+										<div class="item-media">
+											<img src="images/devices/pax-A-920-printer-paper.png" alt="">
+											<div class="media-links">
+												<a class="abs-link" title="" href=""></a>
+											</div>
+										</div>
+										<div class="item-content">
+											<h5 class="gallery-title">
+												<a href="">PAX A-920 Printer Paper</a>
+											</h5>
+											<div class="small-text cat-links">
+												<a class="link-main2" href="#">___</a>
+											</div>
+											<li>Paper Type: Thermal</li>
+											<li>Standard: 58gsm</li>
+											<li>Count: 50 roll/carton</li>
+											<li>Dimension: [W x L] >> [2 1/4 inches x 50 feet]</li>
+														
+										</div>
+									</div>
+								</div>
+
+								<div class="col-md-4 C">
+									<div class="text-center content-padding hero-bg gallery-item">
+										<div class="item-media">
+											<img src="images/devices/pax-s80-printer-paper.png" alt="">
+											<div class="media-links">
+												<a class="abs-link" title="" href=""></a>
+											</div>
+										</div>
+										<div class="item-content">
+											<h5 class="gallery-title">
+												<a href="">PAX S80 Printer Paper</a>
+											</h5>
+											<div class="small-text cat-links">
+												<a class="link-main2" href="#">___</a>
+											</div>
+											<li>Paper Type: Thermal</li>
+											<li>Standard: 58gsm</li>
+											<li>Count: 50 roll/carton</li>
+											<li>Dimension: [W x L] >> [2 1/4 inches x 85 feet]</li>
+														
+										</div>
+									</div>
+								</div>
+
+								
+								
+
+								
+
+							</div>
+							<!-- .isotope-wrapper-->
+
+							<div class="row c-mt-10 c-mt-lg-30">
+								<div class="col-sm-12 text-center">
+									<a href="#" class="btn btn-outline-maincolor"><span>Load More</span></a>
+								</div>
+							</div>
+
+						</div>
+					</div>
+
+				</div>
+			</section>
+
+			<footer class="page_footer ls ms s-pt-80 s-pb-70 s-py-lg-120 s-pt-xl-135 s-pb-xl-105 c-gutter-60 text-center text-md-left">
+				<div class="container">
+					<div class="row">
+						<div class="divider-20 d-none d-xl-block"></div>
+
+						<div class="col-md-6 col-xl-4 order-xl-1 order-md-1 animate" data-animation="fadeInUp">
+							<div class="widget widget_text">
+								<h4 class="widget-title">CINCO PAYMENT</h4>
+								<p>
+									CINCO PAYMENT provides payment solutions for nail salons in the USA, helping them manage transactions smoothly and enhancing both efficiency and customer satisfaction.
+								</p>
+								<div class="widget widget_social_buttons">
+									<a target=_blank href="https://www.facebook.com/profile.php?id=61567024126065" class="fa fa-facebook color-bg-icon rounded-icon" title="facebook"></a>
+									<a href="#" class="fa fa-instagram color-bg-icon rounded-icon" title="twitter"></a>
+									<a href="#" class="fa fa-youtube-play color-bg-icon rounded-icon" title="youtube-play"></a>
+								</div>
+							</div>
+						</div>
+						
+						<div class="col-md-6 col-xl-4 order-xl-2 order-md-2 animate" data-animation="fadeInUp">
+							<div class="widget links">
+								<h4 class="widget-title">Links</h4>
+								<ul>
+									<li class="cat-item">
+										<a href="">Home</a>
+									</li>
+									<li class="cat-item">
+										<a href="devices.html">Devices</a>
+									</li>
+									<!-- <li class="cat-item">
+										<a href="hardware.html">Products</a>
+									</li>
+										<li class="dropdown-item">
+											<a href="hardware.html">Hardware</a>
+										</li>
+										<li class="dropdown-item">
+											<a href="features.html">Software Features</a>
+										</li> -->
+									<!-- <li class="cat-item">
+										<a href="pricings.html">Pricings</a>
+									</li> -->
+									<li class="cat-item">
+										<a href="bank-partners.html">Bank Partners</a>
+									</li>
+									<li class="cat-item">
+										<a href="contacts.html">Contacts</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						
+						<div class="col-md-6 col-xl-4 order-xl-4 order-md-4 animate" data-animation="fadeInUp">
+							<div class="widget widget_icons_list">
+								<h4 class="widget-title">Contacts</h4>
+								<p class="small-text mb-1">Support:</p>
+								<a href="tel:+1(855) 357-6789" class="small-text">
+									<i class="fa fa-phone color-main fs-14"></i>
+									(855) 357-6789
+								</a>
+								<br>
+								<a href="tel:+1(713) 818-0879" class="small-text">
+									<i class="fa fa-phone color-main fs-14"></i>
+									(713) 818-0879
+								</a>
+								<br>
+								<p class="small-text mb-1 mt-3">Fax:</p>
+								<a href="" class="small-text">
+									<i class="fa fa-volume-control-phone color-main fs-14"></i>
+									(832) 909-1234
+								</a>
+								<br>
+								<p class="small-text mb-1 mt-3">Mail:</p>
+								<a target=_blank href="mailto:info@cincopayment.com" class="small-text">
+									<i class="fa fa-envelope color-main fs-14"></i>
+									info@cincopayment.com
+								</a>
+								<br>
+								<a target=_blank href="mailto:sales@cincopayment.com" class="small-text">
+									<i class="fa fa-envelope color-main fs-14"></i>
+									sales@cincopayment.com
+								</a>
+								<br>
+								<p class="small-text mb-1 mt-3">Visit Us:</p>
+								<a target=_blank href="https://maps.app.goo.gl/tQtdE4uSRc47Gs8N6" class="small-text">
+									<i class="fa fa-map-marker color-main3 fs-14"></i>
+									9999 Bellaire Blvd., Suite 1111, Houston, TX 77036
+								</a>
+								<br>
+								<a target=_blank href="https://www.google.com/maps/dir//LEVEL+3+TEK+Nail+Salon+POS+System,+9999+Bellaire+Blvd+UNIT+1111,+Houston,+TX+77036,+United+States/@29.7040328,-95.5578632,17z/data=!3m1!5s0x8640c2cdfe0927e5:0x18d263475d1ecd7a!4m8!4m7!1m0!1m5!1m1!1s0x8640c2ce8cf00001:0xcc0a64b6effdbb46!2m2!1d-95.5552883!2d29.7040282?entry=ttu&g_ep=EgoyMDI0MTAyMS4xIKXMDSoASAFQAw%3D%3D" class="small-text">
+									<i class="fa fa-map-marker color-main3 fs-14"></i>
+									Get Direction
+								</a>
+							</div>
+							<div class="divider-45 d-none d-md-block d-xlz-none"></div>
+						</div>
+						
+						
+					</div>
+				</div>
+			</footer>
+			<section class="page_copyright ds s-py-10 copyright-bg">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="divider-15 d-none d-lg-block"></div>
+						<div class="col-md-12 text-center">
+							<p>&copy; Copyright <span class="copyright_year">2024</span> by CINCO PAYMENT, LLC</p>
+						</div>
+						<div class="divider-15 d-none d-lg-block"></div>
+					</div>
+				</div>
+			</section>
+
+
+		</div><!-- eof #box_wrapper -->
+	</div><!-- eof #canvas -->
+
+
+	<script src="js/compressed.js"></script>
+	<script src="js/main.js"></script>
+
+
+</body>
+
+</html>
