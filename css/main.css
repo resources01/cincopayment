@@ -19408,3 +19408,20 @@ a.read-more.service-btn:hover {
 		margin-right: 30px !important;
 	}
 }
+
+
+/* HKPrice */
+
+.price-s {
+	font-size: 18px;
+	font-weight: 600;
+	color: #4c4c4c;
+
+}
+
+.price-n {
+	font-size: 24px;
+	font-weight: 700;
+	color: #4c4c4c;
+
+}
